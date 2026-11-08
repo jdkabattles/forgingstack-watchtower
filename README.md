@@ -1,6 +1,6 @@
 # ForgingStack Watchtower
 
-An agent that stops checking in is an agent you hear about.
+The agent that stops checking in IS the one you will hear about.
 
 mcp-name: io.github.jdkabattles/forgingstack-watchtower
 
