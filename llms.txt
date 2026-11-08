@@ -1,6 +1,6 @@
 # ForgingStack Watchtower
 
-> An agent that stops checking in is an agent you hear about. Liveness attestation with alerts and receipts.
+> The agent that stops checking in IS the one you will hear about. Liveness attestation with alerts and receipts.
 
 - Live API: https://forgingstack-watchtower.jkbattles.workers.dev
 - Product page: https://forgingstack.com/work/watchtower/
