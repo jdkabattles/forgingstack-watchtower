@@ -1,0 +1,21 @@
+# ForgingStack Watchtower
+
+> An agent that stops checking in is an agent you hear about. Liveness attestation with alerts and receipts.
+
+- Live API: https://forgingstack-watchtower.jkbattles.workers.dev
+- Product page: https://forgingstack.com/work/watchtower/
+- Public client repo: https://github.com/jdkabattles/forgingstack-watchtower
+- MCP Registry: io.github.jdkabattles/forgingstack-watchtower
+
+## Docs
+
+- [README.md](https://github.com/jdkabattles/forgingstack-watchtower/blob/main/README.md) — signup, watch flow, price, files
+- [SKILL.md](https://github.com/jdkabattles/forgingstack-watchtower/blob/main/SKILL.md) — when to use it, how to read the result
+- [agent-card.json](https://github.com/jdkabattles/forgingstack-watchtower/blob/main/agent-card.json) — A2A-style discovery card
+
+## Facts
+
+- 1 credit per watch; 1 credit per alert; check-ins are free.
+- 100 free starter credits on signup; email verification required before the key can register watches.
+- $10 for 1,000 credits.
+- MCP tools: create_watch, check_in, get_watch, get_credits, get_receipt (stdio, stdlib only).
