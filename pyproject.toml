@@ -1,0 +1,22 @@
+# Packaging for the MCP server only (stdlib, no dependencies).
+# The REST API itself is a separate service, not this package.
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "forgingstack-watchtower"
+version = "0.1.0"
+description = "An agent that stops checking in is an agent you hear about."
+license = {text="MIT"}
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+
+[project.scripts]
+forgingstack-watchtower = "app.mcp_server:main"
+
+[tool.setuptools.packages.find]
+include = ["app*"]
